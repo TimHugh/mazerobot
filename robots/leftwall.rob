@@ -1,0 +1,18 @@
+# LEFTWALL
+# follows the left wall until it finds the exit
+
+START r
+10:
+MOVE F
+SENSE L 20
+SENSE F 10
+SENSE R 30
+TURN L
+TURN L
+GOTO 10
+20:
+TURN L
+GOTO 10
+30:
+TURN R
+GOTO 10
